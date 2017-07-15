@@ -1,0 +1,30 @@
+{
+  "name": "sreducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushix/sreducer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushix/sreducer/issues"
+  },
+  "homepage": "https://github.com/rushix/sreducer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  }
+}
